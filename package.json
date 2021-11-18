@@ -1,0 +1,19 @@
+{
+  "name": "sundaepools",
+  "version": "0.1.0",
+  "description": "Markdown table generator for SundaeSwap ISO pools.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "netlify dev"
+  },
+  "keywords": [],
+  "author": "Travis Horn <travis@travishorn.com> (https://travishorn.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "netlify": "^8.0.4"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
