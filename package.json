@@ -1,8 +1,7 @@
 {
   "name": "sundaepools",
   "version": "0.1.0",
-  "description": "Markdown table generator for SundaeSwap ISO pools.",
-  "main": "index.js",
+  "description": "Table generator for SundaeSwap ISO pools.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "netlify dev"

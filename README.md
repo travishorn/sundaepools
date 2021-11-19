@@ -1,6 +1,6 @@
 # SundaeSwap Pools
 
-Markdown table generator for SundaeSwap ISO pools.
+Table generator for SundaeSwap ISO pools.
 
 ## License
 
