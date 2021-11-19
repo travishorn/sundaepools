@@ -5,10 +5,10 @@ exports.handler = async function (event) {
 
   const poolData = res.pools.map((pool) => {
     return {
-      ticker: pool.ticker,
-      saturation: pool.pct_saturated,
-      stake: pool.live_stake,
-      margin: pool.margin_pct,
+      ticker: pool.ticker.replace(/,/g, ""),
+      saturation: pool.pct_saturated.replace(/,/g, ""),
+      stake: pool.live_stake.replace(/,/g, ""),
+      margin: pool.margin_pct.replace(/,/g, ""),
       pledge: pool.pledge.replace(/,/g, ""),
     };
   });
